@@ -1,0 +1,160 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(4fe740ea-f839-45d9-bb13-75236ce1bb2d), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/avroGen.scala:3:12: object sksamuel is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.sksamuel.avro4s.AvroOutputStream[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/avroGen.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/avroGen.scala:13:17: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    val spark = SparkSession.builder().master("local").getOrCreate()[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/avroGen.scala:63:17: not found: value AvroOutputStream[0m
+[0m[[0m[31merror[0m] [0m[0m    val osUsr = AvroOutputStream.data[USER_DIR].to(new File("USER_DIR.avro")).build()[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/avroGen.scala:68:21: not found: value AvroOutputStream[0m
+[0m[[0m[31merror[0m] [0m[0m    val osMessDir = AvroOutputStream.data[MESSAGE_DIR].to(new File("MESSAGE_DIR.avro")).build()[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/avroGen.scala:73:18: not found: value AvroOutputStream[0m
+[0m[[0m[31merror[0m] [0m[0m    val osMess = AvroOutputStream.data[MESSAGE].to(new File("MESSAGE.avro")).build()[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/avroGen.scala:78:17: not found: value AvroOutputStream[0m
+[0m[[0m[31merror[0m] [0m[0m    val osRet = AvroOutputStream.data[RETWEET].to(new File("RETWEET.avro")).build()[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.types._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:5:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:6:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions.{avg, col, first, max, min, round}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:10:14: not found: type SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m  val spark: SparkSession =[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:11:5: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:21:20: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val positions: DataFrame = read("positions.csv")[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:41:27: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def read(path: String): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:22:21: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val positionsC: DataFrame = positionsCast(positions)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:53:44: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def positionsCast(positions: DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:53:32: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def positionsCast(positions: DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:24:18: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val amounts: DataFrame = read("amounts.csv")[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:25:19: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val amountsC: DataFrame = amountsCast(amounts)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:65:40: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def amountsCast(amounts: DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:65:28: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def amountsCast(amounts: DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:27:20: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val curAmount: DataFrame = currentAmountForEachPosition(positionsC, amountsC)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:77:79: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def currentAmountForEachPosition(positions: DataFrame, amounts: DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:77:47: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def currentAmountForEachPosition(positions: DataFrame, amounts: DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:77:67: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def currentAmountForEachPosition(positions: DataFrame, amounts: DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:28:24: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val productAmount: DataFrame = warehouseProductsStats(positionsC, amountsC)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:92:73: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def warehouseProductsStats(positions: DataFrame, amounts: DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:92:41: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def warehouseProductsStats(positions: DataFrame, amounts: DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/main.scala:92:61: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def warehouseProductsStats(positions: DataFrame, amounts: DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.{SparkSession, _}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:8:14: not found: type SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m  val spark: SparkSession =[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:9:5: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:21:19: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val retweets: DataFrame = spark.read.format("avro").load("RETWEET.avro")[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:22:19: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val messages: DataFrame = spark.read.format("avro").load("MESSAGE.avro")[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:23:18: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val userDir: DataFrame = spark.read.format("avro").load("USER_DIR.avro")[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:24:21: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val messageDir: DataFrame = spark.read.format("avro").load("MESSAGE_DIR.avro")[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:51:30: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def findRetweets(retweets: DataFrame, messId: Int, userId: Int, userDir: DataFrame, messDir: DataFrame): (Int, String, String, Int, String, Long) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:51:76: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def findRetweets(retweets: DataFrame, messId: Int, userId: Int, userDir: DataFrame, messDir: DataFrame): (Int, String, String, Int, String, Long) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:51:96: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def findRetweets(retweets: DataFrame, messId: Int, userId: Int, userDir: DataFrame, messDir: DataFrame): (Int, String, String, Int, String, Long) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:34:8: value toDF is not a member of List[(Int, String, String, Int, String, Long)][0m
+[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value toDF'?[0m
+[0m[[0m[31merror[0m] [0m[0m      .toDF("USER_ID", "FIRST_NAME", "LAST_NAME", "MESSAGE_ID", "MESSAGE_TEXT", "RETWEET_AMOUNT")[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:35:16: not found: value desc[0m
+[0m[[0m[31merror[0m] [0m[0m      .orderBy(desc("RETWEET_AMOUNT"))[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:76:76: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def findFirstRetweets(retweets: DataFrame, messageId: Int, userId: Int): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:76:35: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def findFirstRetweets(retweets: DataFrame, messageId: Int, userId: Int): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:101:34: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def getSubscribers(retweetsDf: DataFrame): List[Int] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:55:25: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m    val secondRetweets: DataFrame = findSecondRetweets(retweets, subscriberList, messId)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:89:88: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def findSecondRetweets(retweets: DataFrame, subscribers: List[Int], messageId: Int): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:89:36: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def findSecondRetweets(retweets: DataFrame, subscribers: List[Int], messageId: Int): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/dchadala/IdeaProjects/CourseFinalProject1/src/main/scala/main/twitter.scala:113:23: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def dfToString(dir: DataFrame, colNameId: String, id: Int, colSelect: String): String ={[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m50 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed 24 Feb 2021, 11:57:44[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

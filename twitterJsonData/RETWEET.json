@@ -1,0 +1,42 @@
+[
+  {
+    "USER_ID": 1,
+    "SUBSCRIBER_ID": 2,
+    "MESSAGE_ID": 11
+  },
+  {
+    "USER_ID": 1,
+    "SUBSCRIBER_ID": 3,
+    "MESSAGE_ID": 11
+  },
+  {
+    "USER_ID": 2,
+    "SUBSCRIBER_ID": 5,
+    "MESSAGE_ID": 11
+  },
+  {
+    "USER_ID": 3,
+    "SUBSCRIBER_ID": 7,
+    "MESSAGE_ID": 11
+  },
+  {
+    "USER_ID": 7,
+    "SUBSCRIBER_ID": 14,
+    "MESSAGE_ID": 11
+  },
+  {
+    "USER_ID": 5,
+    "SUBSCRIBER_ID": 33,
+    "MESSAGE_ID": 11
+  },
+  {
+    "USER_ID": 2,
+    "SUBSCRIBER_ID": 4,
+    "MESSAGE_ID": 12
+  },
+  {
+    "USER_ID": 3,
+    "SUBSCRIBER_ID": 8,
+    "MESSAGE_ID": 13
+  }
+]
