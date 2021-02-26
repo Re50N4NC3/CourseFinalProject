@@ -17,10 +17,10 @@ object main {
 
   /** Main function */
   def main(args: Array[String]): Unit = {
-    val positions: DataFrame = read("/Users/dchadala/IdeaProjects/CourseFinalProject1/positions.csv")
+    val positions: DataFrame = read("/positions.csv")
     val positionsC: DataFrame = positionsCast(positions)
 
-    val amounts: DataFrame = read("/Users/dchadala/IdeaProjects/CourseFinalProject1/amounts.csv")
+    val amounts: DataFrame = read("/amounts.csv")
     val amountsC: DataFrame = amountsCast(amounts)
 
     val curAmount: DataFrame = currentAmountForEachPosition(positionsC, amountsC)
